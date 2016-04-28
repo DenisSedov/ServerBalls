@@ -8,7 +8,7 @@ require 'nokogiri'
 # Возвращает список шаров для отображения
 def getballdata
   #if (Ball.count < 100)
-  generateball
+  #generateball
   ball = Ball.all
   respond_to do |format|
     format.xml {render xml:ball}
