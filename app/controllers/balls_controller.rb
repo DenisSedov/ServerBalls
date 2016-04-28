@@ -7,7 +7,7 @@ require 'nokogiri'
 
 # Возвращает список шаров для отображения
 def getballdata
-  if (Ball.count < 100)
+  #if (Ball.count < 100)
     generateball
   ball = Ball.all
   respond_to do |format|
