@@ -1,9 +1,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: denis
-  password: denis
-  host: localhost
+  username: hhzzxdtoxaaqgq
+  password: vuAbocPf0JxEmFctcKhY--AF_9
+  host: ec2-54-163-245-162.compute-1.amazonaws.com
   port: 5432
   pool: 5
 
