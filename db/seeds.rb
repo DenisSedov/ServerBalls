@@ -1,5 +1,5 @@
 Player.delete_all
-Ball.delete_all
+#Ball.delete_all
 
 @@colorArray = [0xFF0000,0xFF6600,0xFFCC00,0x66CC00,0x6699FF,0x3333FF,0x660066]
 
