@@ -26,11 +26,13 @@ ActiveRecord::Schema.define(version: 20160416124031) do
   end
 
   create_table "players", force: :cascade do |t|
+    t.integer  "idplayer"
     t.string   "name"
     t.float    "color"
     t.integer  "score"
     t.float    "x"
     t.float    "y"
+    t.float    "radius"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
