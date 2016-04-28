@@ -9,13 +9,13 @@ default: &default
 
 development:
   <<: *default
-  database: Ball_development
+  database: d4ka9run95jj69
 
 
 test:
   <<: *default
-  database: Ball_test
+  database: d4ka9run95jj69
 
 production:
   <<: *default
-  database: Ball_production
+  database: d4ka9run95jj69
