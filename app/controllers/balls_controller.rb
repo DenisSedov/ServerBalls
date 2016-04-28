@@ -18,7 +18,7 @@ end
 
 def removeball
   ball = Ball.find_by id: params[:id]
-  if ball != nil
+  if (ball != nil)
     ball.destroy
   end
   respond_to do |format|
